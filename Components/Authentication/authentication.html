@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://sharkyui.netlify.app/css/component.css"
+    />
+    <link rel="stylesheet" href="authentication.css" />
+    <link rel="stylesheet" href="/style.css" />
+   
+
+    <title>Authentication</title>
+  </head>
+  <body>
+    <nav class="desktop-nav navbar sticky">
+      <div class="nav-headings">
+        <h1><a href="/index.html">Sharky Store</a></h1>
+      </div>
+    </nav>
+    <div class="box-form">
+      <div class="form-left">
+        <h1>Hi!!</h1>
+        <p class="signin-fields">
+          Welcome back to your own Sharky Store !! Glad to see you back. Keep
+          Shopping !!
+        </p>
+        <p class="signup-fields">
+          Welcome to your own Sharky Store !! Hope you love our products. Keep
+          Shopping !!
+        </p>
+      </div>
+
+      <div class="form-right">
+        <h1 class="signin-fields">Login</h1>
+        <h1 class="signup-fields">Sign Up</h1>
+        <p class="signin-fields">
+          Don't have an account? <a href="#" id="signup-click">Creat Your Account</a> it takes
+          less than a minute
+        </p>
+        <p class="signup-fields">Already have an account? <a href="#" id="login-click">Login to your account</a></p>
+
+        <div class="field signup-fields">
+          <input
+            class="input"
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="sharkyui"
+            autocomplete="off"
+          />
+          <label class="label" for="fname">First Name</label>
+        </div>
+        <br />
+        <div class="field signup-fields">
+            <input
+              class="input"
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="sharkyui"
+              autocomplete="off"
+            />
+            <label class="label" for="lname">Last Name</label>
+          </div>
+          <br />
+        <div class="field">
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="sharky@example.com"
+            autocomplete="off"
+          />
+          <label class="label" for="email">Email</label>
+        </div>
+        <br />
+        <div class="field">
+          <input
+            class="input passwords"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="*"
+            autocomplete="off"
+          />  
+          <label class="label" for="password">Password</label>
+        </div>
+        
+        <br />
+        <div class="signup-fields field" >
+          <input
+            class="input passwords"
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="*"
+            autocomplete="off"
+          />
+          <label class="label" for="confirm-password">Confirm Password</label>
+        </div>
+
+        <br /><br />
+
+        <div class="remember-forget-wrap">
+            <label>
+                <input type="checkbox" class="check-box show-pswd"/>
+                <span class="text-checkbox">Show Passwords</span>
+              </label>
+          <label>
+            <input type="checkbox" name="item" checked  class="check-box"/>
+            <span class="text-checkbox">Remember me</span>
+          </label>
+          <p><a href="#" class="forgot-pswd signin-fields">forgot password?</a></p>
+        </div>
+
+        <br />
+        <button class="btn btn-primary btn-log-sign signin-fields">Login</button>
+        <button class="btn btn-primary btn-log-sign signup-fields">Sign Up</button>
+      </div>
+    </div>
+    <footer class="footer-wrap">
+      <div class="footer">
+        <div>
+          <h1>Help And Information</h1>
+          <p>Help</p>
+          <p>Track Order</p>
+          <p>Delivery & Returns</p>
+        </div>
+        <div>
+          <h1>About Sharky Store</h1>
+          <p>About Us</p>
+          <p>Contact Us</p>
+          <p>Policies</p>
+        </div>
+        <div>
+          <h1>Shopping From</h1>
+          <p>You are in: In</p>
+          <p>Change</p>
+        </div>
+      </div>
+      <div class="footer-disc">
+        <p>©2022 SharkyStore</p>
+        <div>
+          <h6>Privacy & Cookies</h6>
+          <h6>T&Cs</h6>
+        </div>
+      </div>
+    </footer>
+    <script src="authentication.js"></script>
+  </body>
+</html>

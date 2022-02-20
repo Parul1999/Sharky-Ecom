@@ -1,0 +1,93 @@
+body {
+  background: var(--secondary-color);
+  overflow-x: hidden;
+}
+.signup-fields{
+    display: none;
+}
+.nav-headings>h1>a{
+    color:black;
+    text-decoration: none;
+}
+.box-form {
+  align-items: stretch;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: nowrap;
+  flex: 1 1 100%;
+  margin: 10% auto;
+  width: 70%;
+}
+
+.form-left {
+  padding: 2rem;
+}
+.form-right {
+  padding: 1rem;
+  width: 100%;
+}
+.form-left {
+  background: var(--primary-color);
+  border-radius: 1rem 0 0 1rem;
+  color: #ffffff;
+}
+@media (max-width: 980px) {
+  .box-form {
+    flex-flow: wrap;
+  }
+  .form-left {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+  }
+  .form-right {
+      padding: 2rem 1rem;
+    width: 94%;
+  }
+}
+
+.form-left > h1 {
+  font-size: 10vw;
+  line-height: 1;
+  font-weight: bolder;
+}
+.form-right > h1 {
+  font-size: 2.6rem;
+  font-weight: bolder;
+}
+.form-right > p,
+.form-left > p {
+  font-size: 1rem;
+}
+.form-right > p {
+  color: var(--dark-grey-color);
+}
+.form-right > p > a,.forgot-pswd {
+  color: var(--info-color);
+}
+
+.check-box{
+    height: 1.2rem;
+    width: 1.4rem;
+}
+.remember-forget-wrap{
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.forgot-pswd{
+    text-decoration: none;
+}
+.btn-log-sign{
+    background: var(--primary-color);
+}
+.btn-log-sign:hover{
+    font-size: x-large;
+    box-shadow: black 2px 4px 10px;
+}
+.footer-wrap {
+  position: inherit;
+}
