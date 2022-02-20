@@ -1,5 +1,12 @@
-:root{
-    --primary-color:linear-gradient(to right, #f78c79, #ff809d);
-    --secondary-color: linear-gradient(to right, #ffd0bb, #ecebee);
-  
+:root {
+  --primary-color: linear-gradient(to right, #f78c79, #ff809d);
+  --secondary-color: linear-gradient(to right, #ffd0bb, #ecebee);
+}
+.navbar {
+  box-shadow: var(--primary-color) 0px 1px 2px 0px;
+  color: var(--primary-color);
+  display: flex;
+  padding: 10px;
+  width: auto;
+  z-index: 1;
 }
