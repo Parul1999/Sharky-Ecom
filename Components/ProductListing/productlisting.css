@@ -1,0 +1,30 @@
+.mobile-view{
+    display: none;
+}
+@media(max-width:1356px)
+{
+    .desktop-nav-list,.dsk-sidebar-wrap{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .dsk-sidebar-wrap{
+        display: none;
+    }
+}
+.sidebar-product-container{
+    display: flex;
+    justify-content: space-between;
+}
+.content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100rem;
+}
+.btn-primary{
+    background: var(--primary-color);
+}
+.btn-secondary{
+ border: 1px solid var(--black-color)
+}

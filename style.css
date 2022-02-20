@@ -87,3 +87,6 @@ ul{
     width: 1.4rem;
     vertical-align: bottom;
 }
+.hamburger{
+    cursor: pointer;
+}
