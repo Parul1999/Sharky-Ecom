@@ -90,3 +90,26 @@ ul{
 .hamburger{
     cursor: pointer;
 }
+.btn-primary{
+    background: var(--primary-color);
+}
+.btn-secondary{
+ border: 1px solid var(--black-color)
+}
+.horiz-line-thin{
+    background-color:var(--grey-color);
+    height: 2px;
+    margin:1px 1px 1px 0;
+}
+.horiz-line-bold{
+    background-color:var(--grey-color);
+    border:2px solid var(--grey-color);
+    height: 10px;
+    margin:1rem 1rem 1rem 0;
+}
+.success{
+    color:var(--success-color)
+}
+.btn-primary:hover{
+    box-shadow: var(--black-color) 1px 1px 6px;
+}

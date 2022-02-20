@@ -1,0 +1,12 @@
+.wishlisted-container{
+    background: var(--secondary-color);
+}
+.wishlisted-container>h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.wishlist-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+}

@@ -22,9 +22,3 @@
     flex-wrap: wrap;
     width: 100rem;
 }
-.btn-primary{
-    background: var(--primary-color);
-}
-.btn-secondary{
- border: 1px solid var(--black-color)
-}
