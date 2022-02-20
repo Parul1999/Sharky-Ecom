@@ -5,10 +5,7 @@ body {
 .signup-fields{
     display: none;
 }
-.nav-headings>h1>a{
-    color:black;
-    text-decoration: none;
-}
+
 .box-form {
   align-items: stretch;
   background: white;
@@ -67,16 +64,16 @@ body {
 .form-right > p > a,.forgot-pswd {
   color: var(--info-color);
 }
-
-.check-box{
-    height: 1.2rem;
-    width: 1.4rem;
-}
 .remember-forget-wrap{
     align-items: baseline;
     display: flex;
     justify-content: flex-start;
     gap: 10px;
+}
+@media (max-width: 752px) {
+  .remember-forget-wrap{
+  flex-direction: column;
+  }
 }
 .forgot-pswd{
     text-decoration: none;

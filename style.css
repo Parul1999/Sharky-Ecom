@@ -1,19 +1,25 @@
 :root {
   --primary-color: linear-gradient(to right, #f78c79, #ff809d);
   --secondary-color: linear-gradient(to right, #ffd0bb, #ecebee);
+  --white-color:white;
+  --black-color:black;
 }
-.navbar {
-  box-shadow: var(--primary-color) 0px 1px 2px 0px;
-  color: var(--primary-color);
-  display: flex;
-  padding: 10px;
-  width: auto;
-  z-index: 1;
+
+.navbar{
+    background-image: var(--primary-color);
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    width: auto;
 }
 .nav-headings{
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+.nav-headings>h1>a{
+    color:black;
+    text-decoration: none;
 }
 .desktop-list-item{
     margin-right: 0.5rem;
@@ -71,4 +77,13 @@
 }
 .display-none{
     display: none;
+}
+ul{
+    text-decoration: none;
+}
+
+.check-box,.radio-btn{
+    height: 1.2rem;
+    width: 1.4rem;
+    vertical-align: bottom;
 }

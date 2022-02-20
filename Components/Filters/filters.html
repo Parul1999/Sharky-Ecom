@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="https://sharkyui.netlify.app/css/component.css" />
+    <link rel="stylesheet" href="filters.css" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <div class="product-pg-container">
+        <nav class="desktop-nav navbar sticky navbar-container">
+            <div class="nav-headings">
+                <h1><a href="/index.html">Sharky Store</a></h1>
+            </div>
+            <ul class="desktop-nav-list">
+                <li>
+                    <a href="Components/Authentication/authentication.html" class="desktop-list-item">
+                        <span class="material-icons-outlined"> person </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Components/Wishlist/wishlist.html" class="desktop-list-item">
+                        <span class="material-icons-outlined"> favorite_border </span></a>
+                </li>
+                <li>
+                    <a href="Components/Cart/cart.html" class="desktop-list-item">
+                        <span class="material-icons-outlined"> shopping_cart </span></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sidebar-wrapper">
+            <ul class="sidebar-ul">
+                <section class="filters-wrap ">
+                    <h1>Filters</h1>
+                    <button class="btn">Clear All</button>
+                </section>
+                <section class="price-wrap">
+                    <h1>Price</h1>
+                </section>
+                <section class="category-wrap list-wrap">
+                    <h1>Category</h1>
+                    <label>
+                        <input type="checkbox" class="check-box" />
+                        <span class="text-checkbox">Men Clothing</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="item" class="check-box" />
+                        <span class="text-checkbox">Women Clothing</span>
+                    </label>
+                </section>
+                <section class="rating-wrap list-wrap">
+                    <h1>Rating</h1>
+                    <span>
+                        <input type="radio" id="four-star" value="4" class="radio-btn" name="rating">
+                        <label for="four-star">4 stars & above</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="three-star" value="3" class="radio-btn" name="rating">
+                        <label for="three-star">3 stars & above</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="two-star" value="2" class="radio-btn" name="rating">
+                        <label for="two-star">2 stars & above</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="one-star" value="1" class="radio-btn" name="rating">
+                        <label for="one-star">1 star & above</label>
+                    </span>
+                </section>
+                <section class="sortby-wrap list-wrap">
+                    <h1>Sort By</h1>
+                    <span>
+                        <input type="radio" id="low" value="4" class="radio-btn" name="sort">
+                        <label for="low">Price - Low to High</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="high" value="3" class="radio-btn" name="sort">
+                        <label for="high">Price - High to Low</label>
+                    </span>
+                </section>
+            </ul>
+        </div>
+
+        <main class="content-wrapper">
+
+
+        </main>
+
+    </div>
+    </div>
+</body>
+
+</html>
