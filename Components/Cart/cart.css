@@ -67,4 +67,23 @@
         width: -webkit-fill-available;
     }
 }
+.sharecart{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.coupon-inp-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+}
+.coupon-code{
+    width:15%;
+    border-radius: 4px;
+    padding: 0.6rem;
+}
+.apply-btn
+{
+    margin-top: 10px;
 
+}

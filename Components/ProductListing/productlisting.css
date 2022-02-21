@@ -49,3 +49,8 @@
     gap: 1rem;
     flex-direction: column;
 }
+#searchBar{
+    padding: 0.2rem;
+    border-radius: 5px;
+    width: 20%;
+}
