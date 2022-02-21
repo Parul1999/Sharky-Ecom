@@ -14,9 +14,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.items-container>h1{
+.mycart{
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
 .amount-container{
     background-color: var(--white-color);
@@ -28,11 +28,33 @@
     gap: 1rem;
     padding: 3rem 6rem;
 }
-.amount-container>p{
+.basic-card{
+    border:none;
+    box-shadow: var(--black-color) 1px 1px 10px;
+}
+.card-img {
+    height: 40vh;
+}
+.card-footer {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    align-items: inherit;
+}
+.btn{
+    font-size: 1rem;
+    justify-content: center;
+}
+.amount-container>p,.amount-container>h4{
+    display: flex;
+    justify-content: space-between;
     font-size:1rem
 }
-.amount-container>h3{
-    font-size:1.4rem
+.basic-card>div>header>p{
+    font-size:0.7rem;
+    color: var(--dark-color);
 }
 .amount-container>h4{
     font-size:1.2rem

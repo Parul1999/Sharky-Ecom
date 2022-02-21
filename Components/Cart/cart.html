@@ -29,104 +29,105 @@
                     <span class="material-icons-outlined"> favorite_border </span></a>
             </li>
             <li>
-                <a href="../Cart/cart.html" class="desktop-list-item">
-                    <span class="material-icons-outlined"> shopping_cart </span></a>
+                <a href="/index.html" class="desktop-list-item">
+                    <span class="material-icons-outlined">
+                        logout
+                    </span>
+                </a>
             </li>
         </ul>
     </nav>
-    
+
+    <h1 class="mycart">My Cart</h1>
     <main class="items-amount-wrapper">
-    <!-- Cart Container -->
-    <div class="items-container">
-        <h1>My Cart</h1>
+        <!-- Cart Container -->
+        <div class="items-container">
 
-        <div class="card-col basic-card card-horizontal">
-            <div>
-                <img class="card-img basic-img" src="/Assets/card.jpg" alt="card" />
+            <div class="card-col basic-card card-horizontal">
+                <div>
+                    <img class="card-img basic-img" src="/Assets/card.jpg" alt="card" />
 
-                <header>
-                    <h2>Rs.1000</h2>
-                    <p>by SharkyStore</p>
-                    <span class="quant-size">
-                        <label for="quantity">Quant:</label>
-                        <select name="quantity" id="quantity">
-                            <option value="one">1</option>
-                            <option value="two">2</option>
-                            <option value="three">3</option>
-                            <option value="four">4</option>
-                            <option value="five">5</option>
-                        </select>
-                        <label for="size">Size:</label>
-                        <select name="size" id="size">
-                            <option value="xs">XS</option>
-                            <option value="s">S</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                            <option value="xl">XL</option>
-                        </select>
-                    </span>
-                </header>
+                    <header>
+                        <h2>Rs.1000</h2>
+                        <p>by SharkyStore</p>
+                        <span class="quant-size">
+                            <label for="quantity">Quant:</label>
+                            <select name="quantity" id="quantity">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                                <option value="four">4</option>
+                                <option value="five">5</option>
+                            </select>
+                            <label for="size">Size:</label>
+                            <select name="size" id="size">
+                                <option value="xs">XS</option>
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                            </select>
+                        </span>
+                    </header>
+                </div>
+
+                <footer class="card-footer">
+                    <button class="btn btn-primary">Add to Wishlist</button>
+                    <button class="btn btn-secondary">Remove from Cart</button>
+                </footer>
             </div>
-            
-            <footer class="card-footer">
-                <button class="btn btn-primary">Add to Wishlist</button>
-                <button class="btn btn-secondary">Remove from Cart</button>
-            </footer>
+
+            <div class="card-col basic-card card-horizontal">
+                <div>
+                    <img class="card-img basic-img" src="/Assets/card.jpg" alt="card" />
+
+                    <header>
+                        <h2>Rs.1000</h2>
+                        <p>by SharkyStore</p>
+                        <span class="quant-size">
+                            <label for="quantity">Quant:</label>
+                            <select name="quantity" id="quantity">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                                <option value="four">4</option>
+                                <option value="five">5</option>
+                            </select>
+                            <label for="size">Size:</label>
+                            <select name="size" id="size">
+                                <option value="xs">XS</option>
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                            </select>
+                        </span>
+                    </header>
+                </div>
+
+                <footer class="card-footer">
+                    <button class="btn btn-primary">Add to Wishlist</button>
+                    <button class="btn btn-secondary">Remove from Cart</button>
+                </footer>
+            </div>
         </div>
 
-        <div class="card-col basic-card card-horizontal">
-            <div>
-                <img class="card-img basic-img" src="/Assets/card.jpg" alt="card" />
-
-                <header>
-                    <h2>Rs.1000</h2>
-                    <p>by SharkyStore</p>
-                    <span class="quant-size">
-                        <label for="quantity">Quant:</label>
-                        <select name="quantity" id="quantity">
-                            <option value="one">1</option>
-                            <option value="two">2</option>
-                            <option value="three">3</option>
-                            <option value="four">4</option>
-                            <option value="five">5</option>
-                        </select>
-                        <label for="size">Size:</label>
-                        <select name="size" id="size">
-                            <option value="xs">XS</option>
-                            <option value="s">S</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                            <option value="xl">XL</option>
-                        </select>
-                    </span>
-                </header>
-            </div>
-            
-            <footer class="card-footer">
-                <button class="btn btn-primary">Add to Wishlist</button>
-                <button class="btn btn-secondary">Remove from Cart</button>
-            </footer>
+        <!-- Total Price -->
+        <div class="amount-container">
+            <h3>Price Details</h3>
+            <div class="horiz-line-thin"></div>
+            <p>No. of Items: <span>2</span></p>
+            <p>Total MRP: <span>Rs.2000</span></p>
+            <p>Discount on MRP: <span>- Rs.500</span></p>
+            <p>Delivery Charges: <span class="success">FREE</span></p>
+            <div class="horiz-line-thin"></div>
+            <h4>TOTAL AMOUNT: <span>Rs.1500</span></h4>
+            <p>You will save Rs.500 on your order</p>
+            <button class="btn btn-primary">PLACE ORDER</button>
         </div>
-     </div>
-
-     <!-- Total Price -->
-     <div class="amount-container">
-         <h3>Price Details</h3>
-         <div class="horiz-line-bold"></div>
-         <p>No. of Items: <span>2</span></p>
-         <div class="horiz-line-thin"></div>
-         <p>Total MRP: <span>Rs.2000</span></p>
-         <p>Discount on MRP: <span>- Rs.500</span></p>
-         <div class="horiz-line-thin"></div>
-         <p>Delivery Charges: <span class="success">FREE</span></p>
-         <div class="horiz-line-bold"></div>
-         <h4>TOTAL AMOUNT: <span>Rs.1500</span></h4>
-         <p>You will save Rs.500 on your order</p>
-         <button class="btn btn-primary">PLACE ORDER</button>
-     </div>
     </main>
 
-     <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer-wrap">
         <div class="footer">
             <div>

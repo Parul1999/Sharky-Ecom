@@ -13,12 +13,38 @@
         display: none;
     }
 }
+.basic-card{
+    border:none;
+    box-shadow: var(--black-color) 0px 1px 3px;
+}
+.basic-card>div>header>p{
+    font-size:0.7rem;
+    color: var(--dark-color);
+}
+.card-col{
+    width: 17rem;
+}
+.card-img {
+    height: 25vh;
+}
+.btn{
+    font-size: 1rem;
+}
 .sidebar-product-container{
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
 }
 .content-wrapper{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+    gap: 0.9rem;
     width: 100rem;
+}
+.card-footer {
+    align-self: auto;
+    align-items: inherit;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }
