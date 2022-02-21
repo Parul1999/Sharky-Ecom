@@ -34,6 +34,7 @@
 }
 .card-img {
     height: 40vh;
+    object-fit: cover;
 }
 .card-footer {
     display: flex;
@@ -77,10 +78,9 @@
     justify-content: space-between;
     gap:1rem;
 }
-.coupon-code{
-    width:15%;
-    border-radius: 4px;
-    padding: 0.6rem;
+#coupon-code{
+    border-radius: 8px;
+    padding: 0.3rem;
 }
 .apply-btn
 {
