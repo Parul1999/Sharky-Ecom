@@ -23,6 +23,7 @@
 }
 .card-col{
     width: 17rem;
+    height: fit-content;
 }
 .card-img {
     height: 25vh;

@@ -59,6 +59,9 @@
     top: 20px;
     right: 45px;
   }
+  .all-filters-wrap>h1{
+    margin-bottom: 0.8rem;
+  }
   
   @media (max-height: 450px) {
     .overlay .closebtn {
@@ -70,5 +73,12 @@
     .all-filters-wrap{
         display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    }
+    .overlay-content{
+        text-align: inherit;
+    }
+    .filters-wrap-mobile{
+        justify-content: flex-start;
     }
     }
