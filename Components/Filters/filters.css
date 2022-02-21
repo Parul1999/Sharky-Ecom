@@ -11,6 +11,18 @@
     top: 0;
     width: 20rem;
 }
+@media(min-width:2068px)
+{
+    .sidebar-wrapper{
+        width: 25rem;
+    }
+}
+@media(min-width:2236px)
+{
+    .sidebar-wrapper{
+        width: 30rem;
+    }
+}
 .sidebar-ul{
     display: flex;
     flex-direction: column;
