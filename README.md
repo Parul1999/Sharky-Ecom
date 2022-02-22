@@ -8,6 +8,7 @@ The tech used is HTML , CSS and JS.
 ## Screens
 - [Home Page](https://sharkystore.netlify.app/index.html)
 - [Product Listing Page](https://sharkystore.netlify.app/components/productlisting/productlisting)
+- [Product Details](https://sharkystore.netlify.app/components/productdetails/productdetails)
 - [Wishlist](https://sharkystore.netlify.app/components/wishlist/wishlist)
 - [Cart Management](https://sharkystore.netlify.app/components/cart/cart)
 - [Authentication](https://sharkystore.netlify.app/components/authentication/authentication)
