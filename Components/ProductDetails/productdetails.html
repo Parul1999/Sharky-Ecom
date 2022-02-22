@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Assets/favicon.ico" type="image/x-icon">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://sharkyui.netlify.app/css/component.css" />
+    <link rel="stylesheet" href="productdetails.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/Components/Filters/filters.css" />
+</head>
+
+<body>
+    <div class="product-details-container">
+        <!-- Navbar -->
+        <nav class="desktop-nav navbar sticky navbar-container">
+            <div class="nav-headings">
+                <h1><a href="/index.html">Sharky Store</a></h1>
+            </div>
+            <ul class="desktop-nav-list">
+                <li>
+                    <a href="../Authentication/authentication.html" class="desktop-list-item" data-title="user">
+                        <span class="material-icons-outlined"> person </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Wishlist/wishlist.html" class="desktop-list-item" data-title="wishlist">
+                        <span class="material-icons-outlined"> favorite_border </span></a>
+                </li>
+                <li>
+                    <a href="../Cart/cart.html" class="desktop-list-item" data-title="cart">
+                        <span class="material-icons-outlined"> shopping_cart </span></a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="page-heading">Product Details</h1>
+        <main class="product-detail-wrapper">
+            <img src="/Assets/card.jpg" alt="pink-dress" class="product-img" />
+            <div class="product-details">
+                <section>
+                    <h2>Blue Dress</h2>
+                    <small class="grey-txt">by SharkyStore</small>
+                    <p class="product-desc">Blue printed dress, with flawless design and colour</p>
+                </section>
+                <section class="rating-wrapper">
+                    <div>
+                        <span class="material-icons-outlined">
+                            hotel_class
+                        </span><span class="product-rating">4.2</span>
+                    </div>
+                </section>
+                <div class="horiz-line-thin"></div>
+                <section class="product-pricing">
+                    <h4>Rs.1000</h4>
+                    <h4 class="grey-txt product-orig-price">Rs.2000</h4>
+                    <h4 class="success">(50% OFF)</h4>
+                </section>
+                <section>
+                    <h3>SELECT SIZE</h3>
+                    <div class="size-wrapper">
+                        <div class="letter-avatar" title="Xtra-Small">
+                            <span class="letter-avatar-text">XS</span>
+                         </div>
+                        <div class="letter-avatar" title="Small">
+                            <span class="letter-avatar-text">S</span>
+                         </div>
+                         <div class="letter-avatar" title="Medium">
+                            <span class="letter-avatar-text">M</span>
+                         </div>
+                         <div class="letter-avatar" title="Large">
+                            <span class="letter-avatar-text">L</span>
+                         </div>
+                         <div class="letter-avatar" title="Xtra-Large">
+                            <span class="letter-avatar-text">XL</span>
+                         </div>
+                    </div>
+                </section>
+                <section class="card-btns">
+                    <button class="btn btn-primary">Add to Cart</button>
+                    <button class="btn btn-secondary">Add to Wishlist</button>
+                </section>
+                <section class="delivery-terms">
+                    <small class="grey-txt">100% Original Products</small>
+                    <small class="grey-txt">Pay on delivery might be available</small>
+                    <small class="grey-txt">Easy 30 days returns and exchanges</small>
+                    <small class="grey-txt">Try & Buy might be available</small>
+                </section>
+
+
+            </div>
+        </main>
+        <footer class="footer-wrap">
+            <div class="footer">
+                <div>
+                    <h1>Help And Information</h1>
+                    <p>Help</p>
+                    <p>Track Order</p>
+                    <p>Delivery & Returns</p>
+                </div>
+                <div>
+                    <h1>About Sharky Store</h1>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Policies</p>
+                </div>
+                <div>
+                    <h1>Shopping From</h1>
+                    <p>You are in: In</p>
+                    <p>Change</p>
+                </div>
+            </div>
+            <div class="footer-disc">
+                <p>©2022 SharkyStore</p>
+                <div>
+                    <h6>Privacy & Cookies</h6>
+                    <h6>T&Cs</h6>
+                </div>
+            </div>
+        </footer>
+        <script src="../Filters/filters.js"></script>
+</body>
+
+</html>

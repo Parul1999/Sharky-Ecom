@@ -56,3 +56,7 @@
     border: none;
     outline: none;
 }
+.card-col:hover{
+    box-shadow: var(--black-color) 4px 7px 9px;
+    cursor: pointer;
+}
