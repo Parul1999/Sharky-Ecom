@@ -2,7 +2,7 @@ body {
   background: var(--secondary-color);
   overflow-x: hidden;
 }
-.signup-fields{
+.signup-fields,.forgetpswd-fields{
     display: none;
 }
 
@@ -64,11 +64,18 @@ body {
 .form-right > p > a,.forgot-pswd {
   color: var(--info-color);
 }
+.anchor-link{
+  color: var(--info-color);
+}
+.anchor-link>span{
+  vertical-align: middle;
+}
 .remember-forget-wrap{
     align-items: baseline;
     display: flex;
     justify-content: flex-start;
     gap: 10px;
+    margin: 1rem 0;
 }
 @media (max-width: 752px) {
   .remember-forget-wrap{
